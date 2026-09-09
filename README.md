@@ -3,7 +3,7 @@
 
 **Projeto:** Robô Lunar Autônomo para Exploração e Coleta de Água  
 **Documento:** Proposta Programa 1 e Programa 2  
-**Nome da Empresa:** Aqua navitas  
+**Nome da Empresa:** SpaceTech  
 **Turma:** 1ECA  
 **Tema Escolhido:** Água e Energia  
 
@@ -44,7 +44,8 @@ Nosso objetivo é resolver exatamente esse problema: transformar os dados brutos
 ## Indicadores
 
 ### Programa 1: Diagnóstico (`analise_solar` e `analise_bateria`)
-* **Ganho de eficiência de geração solar:** $	ext{Ganho (\%)} = \left(rac{	ext{geração\_kw}}{	ext{consumo\_kw}} 	imes 100ight) - 100$, classificado em **NORMAL**, **ATENÇÃO** ou **CRÍTICO**.
+* **Ganho de eficiência de geração solar:** $	ext{Ganho (\%)} = \left(rac{	ext{geração\_kw}}{	ext{consumo\_kw}} 	imes 100
+ight) - 100$, classificado em **NORMAL**, **ATENÇÃO** ou **CRÍTICO**.
 * **Índice de obstrução por poeira:** $rac{	ext{geração\_kw}}{	ext{poeira\_pct}}$, classificado em **NORMAL**, **ATENÇÃO** ou **CRÍTICO**.
 * **Eficiência da bateria em relação à saúde:** $rac{	ext{capacidade\_kwh}}{	ext{saude\_pct}}$, classificado em **NORMAL**, **ATENÇÃO** ou **CRÍTICO**, com alerta final para troca de baterias degradadas.
 
