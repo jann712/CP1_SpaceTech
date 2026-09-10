@@ -1,4 +1,7 @@
-from util import analise_autonomia_agua, analise_bateria, analise_reservatorio, analise_solar
+from util.analise_autonomia_agua import analise_autonomia_agua
+from util.analise_bateria import analise_bateria
+from util.analise_reservatorio import analise_reservatorio
+from util.analise_solar import analise_solar
 
 analise_solar()
 
